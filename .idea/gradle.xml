@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/app/activityswitching" />
             <option value="$PROJECT_DIR$/app/autocompletedemo" />
             <option value="$PROJECT_DIR$/app/buttondemo" />
+            <option value="$PROJECT_DIR$/app/demoalert" />
+            <option value="$PROJECT_DIR$/app/demosplash" />
             <option value="$PROJECT_DIR$/app/demowebview" />
           </set>
         </option>
