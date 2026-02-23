@@ -16,6 +16,9 @@
             <option value="$PROJECT_DIR$/app/buttondemo" />
             <option value="$PROJECT_DIR$/app/customlistviewdemo" />
             <option value="$PROJECT_DIR$/app/demoalert" />
+            <option value="$PROJECT_DIR$/app/democustompractice" />
+            <option value="$PROJECT_DIR$/app/demodatasend" />
+            <option value="$PROJECT_DIR$/app/demosharedpref" />
             <option value="$PROJECT_DIR$/app/demosplash" />
             <option value="$PROJECT_DIR$/app/demowebview" />
           </set>
