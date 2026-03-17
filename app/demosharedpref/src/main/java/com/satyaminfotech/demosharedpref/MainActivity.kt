@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
         var edtuser = findViewById<EditText>(R.id.edtUsername)
         var edtpass = findViewById<EditText>(R.id.edtPassword)
         var sp = getSharedPreferences("MyPref",MODE_PRIVATE)
-        var getUser = sp.getString("username","")
-        var getPass = sp.getString("password","")
-        edtuser.setText(getUser.toString())
-        edtpass.setText(getPass.toString())
+        var user = sp.getString("username","")
+        var pass = sp.getString("password","")
+        edtuser.setText(user.toString())
+        edtpass.setText(pass.toString())
 
         var send = findViewById<Button>(R.id.btnSend)
         var fetch = findViewById<Button>(R.id.btnFetch)
@@ -50,10 +50,13 @@ class MainActivity : AppCompatActivity() {
             var user = sp.getString("username","")
             var pass = sp.getString("password","")
 
-            //Username: value
-            //"Username: $user"
+            //username: value
             //password: value
-            t.setText("Username: $user\n Password : $pass")
+            //"username: $user"
+            t.setText("Username: $user\nPassword: $pass")
+
+
+
 
             
 
